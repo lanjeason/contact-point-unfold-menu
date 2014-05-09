@@ -1,0 +1,284 @@
+/*触点*/
+.spotBefore {
+    -webkit-transition-property: box-shadow,border-radius;
+    -moz-transition-property: box-shadow,border-radius;
+    -ms-transition-property: box-shadow,border-radius;
+    -o-transition-property: box-shadow,border-radius;
+    transition-property: box-shadow,border-radius;
+    -webkit-transition-duration: .3s;
+    -moz-transition-duration: .3s;
+    -ms-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    transition-duration: .3s
+}
+.spotBefore {
+    position: absolute;
+    left: 9px;
+    bottom: 9px;
+    +zoom: 1;
+    z-index: 99999;
+    width: 32px;
+    height: 32px;
+    background-color: RGBA(54,54,54,.85);
+    border-radius: 32px;
+    box-shadow: 0 0 30px RGBA(54,54,54,0.5);
+    cursor: pointer;
+}
+.spotBefore:hover{
+    box-shadow: 0 0 30px RGBA(54,54,54,1);
+}
+.qo0:hover .nN0,.nN0 {
+    border: 2px solid #fff;
+    border-width: 0 2px 2px;
+    width: 32px;
+    height: 30px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 32px;
+    border-bottom-left-radius: 32px;
+    /* box-shadow: 0 0px 10px RGBA(0,0,0,.7); */
+    left: 7px;
+    bottom: 7px
+}
+.nN0 {
+    background-color: RGBA(0,0,0,.74);}
+.ok0 {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px
+}
+.qt0 {
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    line-height: 0;
+    font-size: 0;
+    background-color: #91DE87;
+    border: 1px solid #91DE87;
+    left: 9px;
+    top: 9px
+}
+.od0 {
+    left: 17px;
+    background-color: #F6CB4C;
+    border-color: #F6CB4C;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px
+}
+.nX0 {
+    top: 17px;
+    background: none!important;
+    border-color: #61BDED;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px
+}
+.nP0 {
+    left: 17px;
+    top: 17px;
+    background-color: #E69D9E;
+    border-color: #E69D9E;
+    border-top-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px
+}
+.sQ0 .ty0 {
+    right: -8px;
+    top: -8px
+}
+.ty0 {
+    overflow: hidden;
+    background-image: url(../img/dock/dot.png);
+    background-position: 0 0;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 100px;
+    font-size: 0
+}
+.iW0 {
+    width: 172px;
+    left: -2px;
+    bottom: 30px;
+    border-bottom-left-radius: 0;
+    border-bottom: 0
+}
+.sb0 {
+    /* -webkit-transition-property: all; */
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    /* transition-property: all; */
+    /* -webkit-transition-duration: .3s; */
+    -moz-transition-duration: .3s;
+    -ms-transition-duration: .3s;
+    -o-transition-duration: .3s;
+    /* transition-duration: .3s
+ */}
+.sb0 {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: absolute;
+    zoom: 1;
+    z-index: 100000;
+    background-color: RGBA(0,0,0,.7);
+    border-radius: 0px;
+    border-top-left-radius: 5px;
+    left: 5px;
+    bottom: 5px
+;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 2px;
+}
+.pd1,.qv1 {
+    overflow: visible;
+    /* border: 2px solid #001d1f; */
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+    border-right: 2px solid #fff;
+}
+.nB1 {
+    /* width: 100%; */
+    /* height: 100%; */
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 0
+}
+.iW0 .qw1,.iW0 .gR2,.jX0 .rM1,.jX0 .hR1,.nM0 .uf0,.nM0 .jR1 {
+    display: block;
+    opacity: 1}
+.iW0 .nK0 {
+    margin: 14px 0;}
+.nK0 {
+    overflow: hidden;
+    position: relative
+}
+.nq0 {
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -ms-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    -ms-transition-duration: .5s;
+    -o-transition-duration: .5s;
+    transition-duration: .5s}
+.iW0 .oK0 {
+    margin: 0;
+    /* margin-left: 0px; */
+    height: 41px;
+    width: 172px;
+    position: relative;
+    +zoom: 1
+}
+.oK0 {
+    cursor: pointer;
+    float: left;
+    width: 90px;
+    height: 90px;
+    margin: 8px;
+    line-height: 0;
+    display: inline
+}
+.oK00 {
+    background-color: rgba(218, 218, 218, 0.57);
+}
+.iW0 .gApps-productIco {
+    position: absolute;
+    left: 12px;
+    top: 2px;}
+.oK0 .gApps-productIco {
+    width: 32px;
+    height: 32px;
+    cursor: pointer
+}
+.iW0 .id0 {
+    position: absolute;
+    left: 59px;
+    top: 19px;
+    color: #fff;
+}
+.iW0 .sn0 {
+    position: absolute;
+    left: 32px;
+    top: 2px}
+.ty0 {
+    overflow: hidden;
+    background-image: url(../img/dock/dot.png);
+    background-position: 0 0;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 100px;
+    font-size: 0
+}
+.sn0 {
+    background-image: none;
+    background: linear-gradient(top,#DF6565,#CE4343);
+    background-color: #DF6565;
+    border: 1px solid #fff;
+    width: auto;
+    min-width: 8px;
+    padding: 0 4px;
+    height: 16px;
+    border-radius: 16px;
+    border-width: 2px;
+    font-size: 12px;
+    line-height: 16px;
+    box-shadow: 0 0 6px RGBA(0,0,0,.9)
+}
+.mb0 {
+    position: absolute;
+    line-height: 0;
+    font-size: 0;
+    height: 0;
+    border-bottom: 2px solid #fff
+}
+.iW0 .mb0 {
+    width: 157px;
+    bottom: 0;
+    left: 32px;
+    box-shadow: 0 2px 5px RGBA(0,0,0,.5)
+}
+.qv1 .mb0,.qv1 .mt0 {
+    opacity: 1}
+.iW0 .jm0 {
+    box-shadow: 0 -2px 5px RGBA(0,0,0,.3);
+    height: 5px;
+    top: -2px;
+    left: 0
+}
+.iW0 .jn0 {
+    box-shadow: -2px 0 5px RGBA(0,0,0,.3);
+    height: 101%;
+    width: 5px;
+    top: 0;
+    left: -2px
+}
+.iW0 .jo0 {
+    box-shadow: 2px 0 5px RGBA(0,0,0,.3);
+    width: 5px;
+    top: 0;
+    right: -2px
+}
+.iW0 .mb0 {
+    width: 142px;
+    bottom: 0;
+    left: 32px;
+    box-shadow: 0 2px 5px RGBA(0,0,0,.5)}
+.mt0 {
+    box-shadow: 0 0 5px RGBA(0,0,0,.5);
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+/*触点*/

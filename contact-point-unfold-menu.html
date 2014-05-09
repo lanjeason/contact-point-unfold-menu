@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>contact-point-unfold-menu</title>
+	<link rel="stylesheet" type="text/css" href="menu.css">
+</head>
+<body>
+	<!-- 提示初始化 - 开始 -->
+    <div id="dock">
+        <div class="spotBefore" id="dvDockStart">
+            <span class="qt0 ok0"></span>
+            <span class="qt0 od0"></span>
+            <span class="qt0 nX0"></span>
+            <span class="qt0 nP0"></span>
+        </div>
+        <div class="sb0 iW0 qv1" id="dvDockList" style="width:172px;height:96px;margin-bottom:34px;margin-left:2px;display:none;">
+            <div class="nB1">
+                <div class="nK0 gR2" id="dvDockAppLsit">
+                    <div class="nq0 nui-fClear" id="dvDockItems">
+                        <div id="goONInitialize" class="oK0" onmouseover="this.className='oK0 oK00'" onmouseout="this.className='oK0'" onclick="top.location = '/static/initialize.html'" style="display:none;">
+                            <b class="js-component-icon gApps-productIco nui-ico ">
+                                <img src="/static/img/logo2.png" alt="暂停初始化">
+                            </b>
+                            <p class="id0">继续初始化</p>
+                            <div class="ty0 sn0" style="display:none" id="dvNew_1"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mb0"></div>
+            <div class="mt0 jm0"></div>
+            <div class="mt0 jn0"></div>
+            <div class="mt0 jo0"></div>
+        </div>
+    </div>
+    <!-- 提示初始化 - 结束 -->
+</body>
+<script type="text/javascript">
+$(document).ready(function(){
+    $("#dvDockStart").on("click",function(event){
+        $("#dvDockStart").toggleClass("nN0 fr0");
+        $("#dvDockList").fadeToggle(100);   
+    });
+    $("#dock").on("mouseleave",function(){
+        $("#dvDockStart").removeClass("nN0 fr0");
+        $("#dvDockList").fadeOut(100);
+
+    });
+});
+</script>
+</html>
